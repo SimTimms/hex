@@ -1,5 +1,5 @@
 {
-  "name": "@hex/welcome-api",
+  "name": "api",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",

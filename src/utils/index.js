@@ -1,0 +1,14 @@
+export const hackerStringDecode = `DECODING IMAGE FILE...............COMPLETE`;
+export const hackerStringOne = `IDENTIFYING SUBJECT........TIM SIMMS`;
+export const location = `ACCESSING LOCATION BEACON........WORTHING, UK`;
+export const projects = `RECENT PROJECTS..............`;
+export const projectArray = ['MSK assist', 'DoodleMeeple'];
+export const dmLink = 'https://app.doodlemeeple.com';
+export const mskassistLink = 'https://clinic.mskassist.app';
+export const industry = `INDUSTRIES..............`;
+export const industryArray = ['Health Tech', 'Tabletop Gaming'];
+export const jest = `LOOKING FOR JEST..........JEST NOT FOUND.....OPENING NOTE`;
+export const jest2 = `FROM TIM: Hi, I know you wanted some Jest in here but I spent far too long trying to be a smart-arse and now it's too late. Anyway, it's jest! It's not too difficult, it is mundane though.`;
+export const complete = `FILE COMPLETE.....WOULD YOU LIKE TO READ MISSION STATEMENT? Y/N`;
+export const mission = `MISSION STATEMENT.....Hi, thanks for looking, I'm pretty tired now, I've been working all day and I have 2 little monsters that wake me up at 5 every day but I'll try and put a coherent paragraph together....CONTINUE? Y/N`;
+export const mission2 = `....If you've read my CV you'll know I've been working in Digital Health for a number of years, it's a unique and difficult industry where experience in the field can really make a difference, it's also an industry filled with untapped potential. I believe that if the right company can take the right approach to making digital health products then healthcare in the UK and worldwide would massively benefit, and I think the key to this is creating commercial quality applications with a focus on patient acquisition. Onbaord patients first, gather and analyse the data, improve the patient experience and provide healthcare providers with the analytics they need to streamline their processes. I've worked with Patients Know Best and InHealthcare during my time at MSK assist, and I'm currently with OCC for SES STP who are also trying to develop a connected health records project, I'd be interested to hear about your approach.`;

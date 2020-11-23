@@ -1,3 +1,3 @@
-import AppWrapper from './AppWrapper';
+import StoryWrapper from './StoryWrapper';
 
-export { AppWrapper };
+export { StoryWrapper };

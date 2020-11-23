@@ -1,7 +1,8 @@
 import React from 'react';
-import { AppWrapper } from './components';
+import { StoryWrapper } from './components';
+
 function App() {
-  return <AppWrapper></AppWrapper>;
+  return <StoryWrapper></StoryWrapper>;
 }
 
 export default App;

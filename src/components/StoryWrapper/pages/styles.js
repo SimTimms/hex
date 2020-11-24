@@ -53,10 +53,10 @@ export const Button = styled.button`
   font-size: 1em;
   text-align: center;
   background: none;
-  border: 1px dashed ${(props) => props.theme.branding.primary};
+  border: 1px dashed ${(props) => props.theme.font.primary};
   border-radius: 10px;
   padding: 10px 30px 10px 30px;
-  color: ${(props) => props.theme.branding.primary};
+  color: ${(props) => props.theme.font.primary};
   font-weight: 600;
   cursor: pointer;
 `;

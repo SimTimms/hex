@@ -150,13 +150,12 @@ export function Page1({ setStoryPage }) {
         </Warning>
       </Row>
       <Divider />
-      <Row>
-        <Warning>{section >= 8 && mission}</Warning>
-      </Row>
+      <Row>{section >= 8 && mission}</Row>
       <Divider />
       <Row>
         <div>{section === 9 && mission2}</div>
       </Row>
+      <Divider />
       <Divider />
       {section >= 9 && (
         <Button
@@ -164,7 +163,7 @@ export function Page1({ setStoryPage }) {
           onClick={() => setStoryPage(2)}
         >
           {giveJob === 1 ? (
-            <div>Give Tim the Job</div>
+            <div>Click here to give Tim the job</div>
           ) : (
             <div>Don't Give Tim the Job</div>
           )}
@@ -177,7 +176,7 @@ export function Page1({ setStoryPage }) {
           onClick={() => setStoryPage(2)}
         >
           {giveJob === 0 ? (
-            <div>Give Tim the Job</div>
+            <div>Click here to give Tim the job</div>
           ) : (
             <div>Don't Give Tim the Job</div>
           )}

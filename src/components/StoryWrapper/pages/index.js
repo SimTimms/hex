@@ -4,6 +4,7 @@ import {
   PDark,
   Input,
   Button,
+  TextDark,
   Column,
   ColumnFull,
   Row,
@@ -53,17 +54,18 @@ export function Page1({ setStoryPage }) {
 
   useEffect(() => {
     axios.get(`http://localhost:4000/api`).then((res) => {
-      console.log(res);
       setApiData(res.request.statusText);
     });
   }, [setApiData]);
   return apiData === 'OK' ? (
     <ColumnMain>
-      <Row>CONNECTING TO POINTLESS API.....COMPLETE</Row>
+      <Row>
+        <TextDark>CONNECTING TO POINTLESS API.....COMPLETE </TextDark>
+      </Row>
       <Divider />
-      <Row>PLEASE COMMENCE TYPING LIKE AN 80'S HACKER</Row>
+      <Row>Please commence typing in the console like an 80's hacker</Row>
       <Divider />
-      <Row>------------------------------------------</Row>
+      <Row>------------------------------------------------------</Row>
       <Divider />
       <Row>
         <div>
@@ -213,7 +215,7 @@ export function Page1({ setStoryPage }) {
 
           setInputObject(newArr);
         }}
-        placeholder="Console:"
+        placeholder="Console: Type here...."
       />
     </ColumnMain>
   ) : (

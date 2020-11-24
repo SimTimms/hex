@@ -15,6 +15,10 @@ export const Error = styled.div`
   color: ${(props) => props.theme.font.error};
 `;
 
+export const TextDark = styled.div`
+  color: ${(props) => props.theme.font.primaryDark};
+`;
+
 export const Warning = styled.div`
   color: ${(props) => props.theme.font.warning};
 `;
